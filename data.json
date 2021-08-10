@@ -1,0 +1,189 @@
+[
+    {
+        "mainSku": "JVC200123",
+        "mainName": "Acme DISC",
+        "mainPrice":  1.00, 
+        "mainImg": "https://cdn.discordapp.com/attachments/509374731015684097/859958269799301150/OTbGZTNonc.jpg",       
+        "mainAttribute": 700,
+        "mainid": 1
+    },    
+    {
+        "mainSku": "TR120555",
+        "mainName": "Chair",
+        "mainPrice":  40.00,
+        "mainImg": "https://loverthreads.com/wp-content/uploads/2021/02/81J5r9dANGL._SL1500_.jpg",
+        "mainAttribute": "24x45x15",
+        "mainid": 3
+    },
+    {
+        "mainSku": "JVC235223",
+        "mainName": "T-Shirt",
+        "mainPrice":  13.00,
+        "mainImg": "https://static.zajo.net/content/mediagallery/zajo_dcat/image/product/types/X/9088.png",
+        "mainAttribute": 900,
+        "mainid": 4
+    },
+    {
+        "mainSku": "JVC200124",
+        "mainName": "Jeans",
+        "mainPrice":  25.00,
+        "mainImg": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd9%2F32%2Fd932c609446b216c64884ad1df56d54aad21568a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_jeans_loose%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+        "mainAttribute": 0.5,
+        "mainid": 5
+    },
+    {
+        "mainSku": "JVC324673",
+        "mainName": "Shorts",
+        "mainPrice":  15.00,
+        "mainImg": "https://cdn.shopify.com/s/files/1/0481/8629/products/Rust_Front.jpg?v=1622013744",
+        "mainAttribute": "31x15x7",
+        "mainid": 6
+    },
+    {
+        "mainSku": "JVC200123",
+        "mainName": "Acme DISC",
+        "mainPrice":  1.00, 
+        "mainImg": "https://cdn.discordapp.com/attachments/509374731015684097/859958269799301150/OTbGZTNonc.jpg",       
+        "mainAttribute": 700,
+        "mainid": 7
+    },
+    {
+        "mainSku": "GGWP007",
+        "mainName": "War and Peace",
+        "mainPrice":  20.00,
+        "mainImg": "https://cdn.discordapp.com/attachments/509374731015684097/859958269799301150/OTbGZTNonc.jpg",
+        "mainAttribute": 2,        
+        "mainid": 8
+    },
+    {
+        "mainSku": "TR120555",
+        "mainName": "Chair",
+        "mainPrice":  40.00,
+        "mainImg": "https://loverthreads.com/wp-content/uploads/2021/02/81J5r9dANGL._SL1500_.jpg",
+        "mainAttribute": "24x45x15"
+        ,
+        "mainid": 9
+    },
+    {
+        "mainSku": "JVC235223",
+        "mainName": "T-Shirt",
+        "mainPrice":  13.00,
+        "mainImg": "https://static.zajo.net/content/mediagallery/zajo_dcat/image/product/types/X/9088.png",
+        "mainAttribute": 900,
+        "mainid": 10
+    },
+    {
+        "mainSku": "JVC200124",
+        "mainName": "Jeans",
+        "mainPrice":  25.00,
+        "mainImg": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd9%2F32%2Fd932c609446b216c64884ad1df56d54aad21568a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_jeans_loose%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+        "mainAttribute": 0.5,
+        "mainid": 11
+    },
+    {
+        "mainSku": "JVC324673",
+        "mainName": "Shorts",
+        "mainPrice":  15.00,
+        "mainImg": "https://cdn.shopify.com/s/files/1/0481/8629/products/Rust_Front.jpg?v=1622013744",
+        "mainAttribute": "31x15x7",
+        "mainid": 12
+    },
+    {
+        "mainSku": "JVC200123",
+        "mainName": "Acme DISC",
+        "mainPrice":  1.00, 
+        "mainImg": "https://cdn.discordapp.com/attachments/509374731015684097/859958269799301150/OTbGZTNonc.jpg",       
+        "mainAttribute": 700,
+        "mainid": 13
+    },
+    {
+        "mainSku": "GGWP007",
+        "mainName": "War and Peace",
+        "mainPrice":  20.00,
+        "mainImg": "https://cdn.discordapp.com/attachments/509374731015684097/859958269799301150/OTbGZTNonc.jpg",
+        "mainAttribute": 2,        
+        "mainid": 14
+    },
+    {
+        "mainSku": "TR120555",
+        "mainName": "Chair",
+        "mainPrice":  40.00,
+        "mainImg": "https://loverthreads.com/wp-content/uploads/2021/02/81J5r9dANGL._SL1500_.jpg",
+        "mainAttribute": "24x45x15"
+        ,
+        "mainid": 15
+    },
+    {
+        "mainSku": "JVC235223",
+        "mainName": "T-Shirt",
+        "mainPrice":  13.00,
+        "mainImg": "https://static.zajo.net/content/mediagallery/zajo_dcat/image/product/types/X/9088.png",
+        "mainAttribute": 900,
+        "mainid": 16
+    },
+    {
+        "mainSku": "JVC200124",
+        "mainName": "Jeans",
+        "mainPrice":  25.00,
+        "mainImg": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd9%2F32%2Fd932c609446b216c64884ad1df56d54aad21568a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_jeans_loose%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+        "mainAttribute": 0.5,
+        "mainid": 17
+    },
+    {
+        "mainSku": "JVC324673",
+        "mainName": "Shorts",
+        "mainPrice":  15.00,
+        "mainImg": "https://cdn.shopify.com/s/files/1/0481/8629/products/Rust_Front.jpg?v=1622013744",
+        "mainAttribute": "31x15x7",
+        "mainid": 18
+    },
+    {
+        "mainSku": "JVC200123",
+        "mainName": "Acme DISC",
+        "mainPrice":  1.00, 
+        "mainImg": "https://cdn.discordapp.com/attachments/509374731015684097/859958269799301150/OTbGZTNonc.jpg",       
+        "mainAttribute": 700,
+        "mainid": 19
+    },
+    {
+        "mainSku": "GGWP007",
+        "mainName": "War and Peace",
+        "mainPrice":  20.00,
+        "mainImg": "https://cdn.discordapp.com/attachments/509374731015684097/859958269799301150/OTbGZTNonc.jpg",
+        "mainAttribute": 2,        
+        "mainid": 20
+    },
+    {
+        "mainSku": "TR120555",
+        "mainName": "Chair",
+        "mainPrice":  40.00,
+        "mainImg": "https://loverthreads.com/wp-content/uploads/2021/02/81J5r9dANGL._SL1500_.jpg",
+        "mainAttribute": "24x45x15"
+        ,
+        "mainid": 21
+    },
+    {
+        "mainSku": "JVC235223",
+        "mainName": "T-Shirt",
+        "mainPrice":  13.00,
+        "mainImg": "https://static.zajo.net/content/mediagallery/zajo_dcat/image/product/types/X/9088.png",
+        "mainAttribute": 900,
+        "mainid": 22
+    },
+    {
+        "mainSku": "JVC200124",
+        "mainName": "Jeans",
+        "mainPrice":  25.00,
+        "mainImg": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd9%2F32%2Fd932c609446b216c64884ad1df56d54aad21568a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_jeans_loose%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+        "mainAttribute": 0.5,
+        "mainid": 23
+    },
+    {
+        "mainSku": "JVC324673",
+        "mainName": "Shorts",
+        "mainPrice":  15.00,
+        "mainImg": "https://cdn.shopify.com/s/files/1/0481/8629/products/Rust_Front.jpg?v=1622013744",
+        "mainAttribute": "31x15x7",
+        "mainid": 24
+    }    
+]
