@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,25 +14,25 @@
             <h1 class="">Product Add</h1>            
         </div>
         <div class="header-holder2">
-            <button id="button_save" class="header-holder2 button" type="button">Save</button>
-            <button id="button_cancel" class="header-holder2 button" type="button">Cancel</button>
+            <button form="form_submit" id="button_save" class="header-holder2 button" type="submit">Save</button>
+            <button onclick="window.location.href= 'Product_Page.php';" id="button_cancel" class="header-holder2 button" type="button">Cancel</button>
         </div>        
     </header>
     <hr>
     <section class="productAdd section">
-       <div class="productAdd-container">
+       <form id="form_submit" class="productAdd-container">
            <div class="productAdd-container-attributes">
                 <div class="productAdd-container-attributes-holder">
                     <label for="sku">SKU</label>
-                    <input id="sku" placeholder="sku" type="text">    
+                    <input name="sku" id="sku" placeholder="sku" type="text">    
                 </div>
                 <div class="productAdd-container-attributes-holder">
                     <label for="name">Name</label>
-                    <input id="name" placeholder="name" type="text">
+                    <input name="name" id="name" placeholder="name" type="text">
                 </div>
                 <div class="productAdd-container-attributes-holder">
                     <label for="price">Price ($)</label>
-                    <input id="price" placeholder="price" type="number">
+                    <input name="price" id="price" placeholder="price" type="number">
                 </div>
            </div>
            <div class="productAdd-container-switcher">
@@ -45,27 +44,24 @@
                         <option value="2">Book</option>
                     </select>
                </div>
-
                <div class="productAdd-container-switcher-form">
                     <div class="productAdd-container-switcher-form-holder">
                         <label for="size">Size (MB)</label>
-                        <input class="switchInput" id="size" placeholder="size" type="number">
-                    </div>
-                    <div class="productAdd-container-switcher-form-description">
-                        <textarea placeholder="description" id="" cols="30" rows="10"></textarea>
+                        <input name="size" class="switchInput" id="size" placeholder="size" type="number">
                     </div>
                </div>
-           </div>
-       </div>
+               <div class="productAdd-container-switcher-description">
+                    <textarea placeholder="description" id="" cols="30" rows="10"></textarea>
+                </div>
+           </div>           
+       </form>
     </section>
-    <hr>
+    <hr>    
     <footer class="footer">
         <span>Scandiweb Test assignment</span>            
-        <span>© Juris Ancs</span>            
-    </footer>
+        <span>© Juris Ancs</span>
+    </footer>   
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="/JS/data.js"></script>
-<script src="JS/load_products.js"></script>
 <script src="JS/products_add.js"></script>
 </html>

@@ -14,15 +14,15 @@
             <h1 class="">Product List</h1>
         </div>
         <div class="header-holder2">
-            <button id="button_add_page" class="header-holder2 button" type="button" >Add</button>
-            <button id="button_delete" class="header-holder2 button" type="button">Mass delete</button>
+            <button onclick="window.location.href= 'Product_Add.php';" id="button_add_page" class="header-holder2 button" type="button" >Add</button>
+            <button form="delete_form" id="button_delete" class="header-holder2 button" type="submit">Delete</button>
         </div>
     </header>
     <hr>
     <section class="products section">
-        <div class="products-holder">
+        <form id="delete_form" class="products-holder">
 
-        </div>
+        </form>
     </section>
     <hr>
     <footer class="footer">
@@ -32,4 +32,5 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="JS/script.js"></script>
+<script src="JS/delete.js"></script>
 </html>

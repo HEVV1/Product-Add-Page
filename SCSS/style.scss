@@ -7,6 +7,9 @@ body{
    // background-color: rgba($color: rgb(26, 25, 25), $alpha: 1.0);
     //background-color: white;
     overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;   
+    background-color: white;
 }
 
 //Header
@@ -106,9 +109,7 @@ hr{
             position: relative;
             overflow: hidden;
             border: 1px solid rgba(90, 90, 90, 1);
-            transition: ease-in-out 600ms;
-            // visibility: hidden;
-            opacity: 0;            
+            transition: ease-in-out 600ms;           
             
             input{
                 position: absolute;
@@ -123,7 +124,7 @@ hr{
                 height: 100%;
             }
             //Data that pop out
-            &-data{                
+            &-data{ 
                 width: 100%;
                 height: 100%;
                 position: absolute;                
@@ -194,17 +195,17 @@ hr{
 }
 
 .footer{
-    background-color: rgba($color: rgb(60, 60, 60), $alpha: 1.0);
-    height: auto;   
     width: 100%;
-    //position: fixed;
-    //left: 0;
-    //bottom: 0;    
-    display: flex;
+    height: auto;
     flex-direction: column;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
+    background-color: rgba($color: rgb(60, 60, 60), $alpha: 1.0);
     z-index: 3;
+    margin-top: 25px;
+    position: absolute;
+    top: 100%;    
     background-color: black;
     span{         
         margin: 5px auto;
@@ -279,16 +280,15 @@ hr{
                         font-size: 18px;
                         color: rgba($color: #000000, $alpha: 1.0);
                     }
-                }
-                & textarea{
-                    max-width: 400px;
-                    width: 100%;
-                    border-radius: 5px;
-                    border: 1px solid black;
-                    font-size: 18px;
-                }
+                }                
             }
-            
+            &-description textarea{
+                max-width: 400px;
+                width: 100%;
+                border-radius: 5px;
+                border: 1px solid black;
+                font-size: 18px;
+            }
         }
     }
 }
