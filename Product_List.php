@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <title>Product Page</title>
+    <title>Product List</title>
 </head>
 <body>
     <header class="header">
@@ -14,8 +14,8 @@
             <h1 class="">Product List</h1>
         </div>
         <div class="header-holder2">
-            <button onclick="window.location.href= 'Product_Add.php';" id="button_add_page" class="header-holder2 button" type="button" >Add</button>
-            <button form="delete_form" id="button_delete" class="header-holder2 button" type="submit">Delete</button>
+            <button onclick="window.location.href='Product_Add.php';" id="button_add_page" class="header-holder2 button" type="button" >ADD</button>
+            <button form="delete_form" id="button_delete" class="header-holder2 button" type="submit">MASS DELETE</button>
         </div>
     </header>
     <hr>

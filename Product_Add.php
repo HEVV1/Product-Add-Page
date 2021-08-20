@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <title>Product Add</title>
+    <title>Product List</title>
 </head>
 <body>
     <header class="header">
@@ -14,13 +14,13 @@
             <h1 class="">Product Add</h1>            
         </div>
         <div class="header-holder2">
-            <button form="form_submit" id="button_save" class="header-holder2 button" type="submit">Save</button>
-            <button onclick="window.location.href= 'Product_Page.php';" id="button_cancel" class="header-holder2 button" type="button">Cancel</button>
-        </div>        
+            <button form="product_form" id="button_save" class="header-holder2 button" type="submit">Save</button>
+            <button onclick="window.location.href= 'Product_List.php';" id="button_cancel" class="header-holder2 button" type="button">Cancel</button>
+        </div>
     </header>
     <hr>
     <section class="productAdd section">
-       <form id="form_submit" class="productAdd-container">
+       <form id="product_form" class="productAdd-container">
            <div class="productAdd-container-attributes">
                 <div class="productAdd-container-attributes-holder">
                     <label for="sku">SKU</label>
@@ -47,7 +47,7 @@
                <div class="productAdd-container-switcher-form">
                     <div class="productAdd-container-switcher-form-holder">
                         <label for="size">Size (MB)</label>
-                        <input name="size" class="switchInput" id="size" placeholder="size" type="number">
+                        <input id="size" name="size" class="switchInput" id="size" placeholder="size" type="number">
                     </div>
                </div>
                <div class="productAdd-container-switcher-description">

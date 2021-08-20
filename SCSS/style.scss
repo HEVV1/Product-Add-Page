@@ -42,13 +42,13 @@ body{
             border-radius: 5px;                  
             margin: 0 15px 0 0;
             color: black;  
-            font-size: 20px;
+            font-size: 15px;
             transition: ease-in-out 300ms;
             z-index: 0;
             overflow: hidden;
             border: 1px solid black;
             box-shadow: 2px 2px 5px rgba($color: rgb(60, 60, 60), $alpha: 1.0);    
-            //After for all butons
+            //After for all butons            
             &:after{
                 content: "";
                 z-index: -1;
@@ -61,8 +61,7 @@ body{
                 transform: translate(98%, 0) rotate(-45deg);
                 transform-origin: 0 0;
                 transition: ease-in-out 500ms;
-                transition-timing-function: cubic-bezier(.31,.05,.32,1.84);
-                
+                transition-timing-function: cubic-bezier(.31,.05,.32,1.84);                
             }
             &:hover{
                 color: white;
@@ -70,7 +69,7 @@ body{
             &:hover:after{
                 transform: translate(0, 0) rotate(0);
             }            
-        }       
+        }        
     }    
 }
 //Line

@@ -7,7 +7,7 @@ $(document).ready(function(){
     ajaxRequest(startCount);
     setTimeout(function(){ //Make an interval that value could be assigned to lastElement_top_1 variable      
         recursive();
-    }, 50);
+    }, 200);
 });
 
 function recursive(){
@@ -20,7 +20,7 @@ function recursive(){
             recursive();
         }, 50);
     }
-}
+}   
 
 //Load data according the Y-scroll
 $(window).on('scroll resize', function() {
@@ -60,7 +60,7 @@ function productsContainer(sku, name, price, imgsrc, attribute, id){
     var productsHolder = document.querySelector(".products-holder");    
     output +=
     '<div id="product'+id+'" class="products-holder-box productbox stylebox">'+
-        '<input class="deleteCheckbox" name="checkbox_index[]" value='+id+' id="checkbox'+id+'" type="checkbox">'+
+        '<input class="delete-checkbox" name="checkbox_index[]" value='+id+' id="checkbox'+id+'" type="checkbox">'+
         '<img src="'+imgsrc+'" alt="">'+
         '<div class="products-holder-box-data">'+
             '<span class="products-holder-box-data-sku    Datatext">'+sku+'</span>'+

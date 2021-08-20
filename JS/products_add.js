@@ -7,7 +7,7 @@ $('.productAdd-container').submit(function(e){
             url: "PHP/submit.php",
             data: currentForm.serialize(),
             success: function () {
-                window.location.href = 'Product_Page.php';
+                window.location.href = 'Product_List.php';
                 console.log('Success');
             },
             error: function(){
@@ -54,7 +54,7 @@ $('#productType').change(function(){
             output = 
             '<div class="productAdd-container-switcher-form-holder">'+
                 '<label for="size">Size (MB)</label>'+
-                '<input name="size" class="switchInput" id="size" placeholder="size" type="number">'+
+                '<input id="size" name="size" class="switchInput" placeholder="size" type="number">'+
             '</div>';
             switchedType.innerHTML = output;
         break;
@@ -62,15 +62,15 @@ $('#productType').change(function(){
             output = 
             '<div class="productAdd-container-switcher-form-holder">'+
                 '<label for="height">Height (CM)</label>'+
-                '<input name="height" class="switchInput" id="height" placeholder="height" type="number">'+
+                '<input id="height" name="height" class="switchInput" placeholder="height" type="number">'+
             '</div>'+
             '<div class="productAdd-container-switcher-form-holder">'+
                 '<label for="width">Width (CM)</label>'+
-                '<input name="width" class="switchInput" id="width" placeholder="width" type="number">'+
+                '<input id="width" name="width" class="switchInput" placeholder="width" type="number">'+
             '</div>'+
             '<div class="productAdd-container-switcher-form-holder">'+
                 '<label for="length">Length (CM)</label>'+
-                '<input name="length" class="switchInput" id="length" placeholder="length" type="number">'+
+                '<input id="length" name="length" class="switchInput" placeholder="length" type="number">'+
             '</div>';
             switchedType.innerHTML = output;
         break;
@@ -78,7 +78,7 @@ $('#productType').change(function(){
             output = 
             '<div class="productAdd-container-switcher-form-holder">'+
                 '<label for="weight">Weight (KG)</label>'+
-                '<input name="weight" class="switchInput" id="weight" placeholder="weight" type="number">'+
+                '<input id="weight" name="weight" class="switchInput" placeholder="weight" type="number">'+
             '</div>';
             switchedType.innerHTML = output;
         break;
