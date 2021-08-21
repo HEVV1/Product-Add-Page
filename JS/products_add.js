@@ -7,7 +7,7 @@ $('.productAdd-container').submit(function(e){
             url: "PHP/submit.php",
             data: currentForm.serialize(),
             success: function () {
-                window.location.href = 'Product_List.php';
+                window.location.href = 'Product_Page.php';
                 console.log('Success');
             },
             error: function(){

@@ -1,7 +1,7 @@
 $('#delete_form').submit(function(e){
     e.preventDefault();
     var checkboxId = [];
-    $(".deleteCheckbox:checked").each(function(){
+    $(".delete-checkbox:checked").each(function(){
         checkboxId.push($(this).val());        
     });    
     $.ajax({

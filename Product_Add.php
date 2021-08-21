@@ -15,7 +15,7 @@
         </div>
         <div class="header-holder2">
             <button form="product_form" id="button_save" class="header-holder2 button" type="submit">Save</button>
-            <button onclick="window.location.href= 'Product_List.php';" id="button_cancel" class="header-holder2 button" type="button">Cancel</button>
+            <button onclick="window.location.href='Product_Page.php';" id="button_cancel" class="header-holder2 button" type="button">Cancel</button>
         </div>
     </header>
     <hr>
@@ -24,7 +24,7 @@
            <div class="productAdd-container-attributes">
                 <div class="productAdd-container-attributes-holder">
                     <label for="sku">SKU</label>
-                    <input name="sku" id="sku" placeholder="sku" type="text">    
+                    <input name="sku" id="sku" placeholder="sku" type="text">
                 </div>
                 <div class="productAdd-container-attributes-holder">
                     <label for="name">Name</label>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <title>Product List</title>
+    <title>Product Page</title>
 </head>
 <body>
     <header class="header">
